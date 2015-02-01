@@ -1,0 +1,281 @@
+/* CSS reset */
+{
+  margin: 0;
+  padding: 0;
+}
+
+header, section, footer, aside, nav, main, article, figure, a
+{ 
+  display: block; 
+}
+
+html,body
+{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  width:100%;
+  min-height:100%;
+  height: 100%;
+  font-family:'Roboto', sans-serif;
+}
+
+.logo-section
+{
+  /*background: #FF0000;*/
+  width: 750px;
+  height: 20%;
+  min-height: 122px;
+  max-height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.main-section
+{
+  /*background: #00FF00;*/
+  height: 77%;
+  min-height: 600px;
+  width: 750px;
+  min-width: 750px;
+  max-height: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.learn-more-section
+{
+  /*background: #CCCCCC;*/
+  height: 3%;
+  min-height: 40px;
+  width: 750px;
+  position: relative;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.version-section
+{
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tutorial-section
+{
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-section
+{
+  width: 750px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo
+{
+  position: absolute;
+  top: 30px;
+  left: 45px;
+  background: url('../image/title.png') no-repeat center top;
+  width: 596px;
+  min-height: 122px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main
+{
+  position: relative;
+}
+
+.operator
+{
+  min-width: 280px;
+  min-height: 505px;
+  background: url('../image/main.png') no-repeat left;
+  position: absolute;
+  left: 40px;
+  top: 10%;
+}
+
+.features
+{
+  position: absolute;
+  left: 400px;
+  top: 17%;
+  height: 100%;
+}
+
+.features-title
+{
+  font-size: 28px;
+  font-weight:700;
+  color:#444444;
+}
+
+.features-summary
+{
+  font-size:18px;
+  font-weight:300;
+  color:#444444;
+  margin-top: -20px;
+  margin-left: 1px;
+}
+
+#download-link
+{
+  position: absolute;
+  top: 300px;
+  left: 1px;
+}
+
+#learn-more-link
+{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #444444;
+}
+
+.divider
+{
+  display:block;
+  border-top-width:1px;
+  border-top-style:solid;
+  border-top-color:#a0afbb;
+  margin-top:0px;
+  margin-bottom:20px;
+  margin-right:auto;
+}
+
+.version-wrapper
+{
+  display: table;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+.version-cell
+{
+  display: table-cell;
+  width: 48%;
+  height: 100%;
+  padding-left: 2%;
+}
+
+.version-title
+{
+  font-size:28px;
+  font-weight:700;
+  color:#444444;
+  margin-left:11px;
+}
+
+.version-summary
+{
+  color:#444444;
+  font-size:18px;
+  font-weight:300;
+  margin-top:-15px;
+  margin-left:12px;
+}
+
+.tutorial-wrapper
+{
+  display: table;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 4px;
+}
+
+.tutorial-cell
+{
+  display: table-cell;
+  width: 48%;
+  height: 100%;
+  padding-left: 2%;
+}
+
+.tutorial-video-wrapper
+{
+  display: table;
+  width: 100%;
+  margin-bottom: 40px;
+  margin-left: 70px;
+}
+
+.tutorial-video-cell
+{
+  display: table-cell;
+  width: 50%;
+}
+
+.tutorial-title
+{
+  margin-left: 3px;
+  width: 85%;
+  font-size:22px;
+  color: #FFFFFF;
+  border-radius:6px;
+  padding:5px 5px 7px 10px;
+  box-shadow:1px 1px 3px #888;
+}
+
+.tutorial-summary
+{
+  margin-top: -10px;
+  color: #444444;
+  padding-left:12px;
+  font-size:18px;
+  font-weight:300;
+}
+
+.tutorial-video
+{
+  width: 200px;
+  height: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-us
+{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 13px;
+  font-weight: 400;
+  color: #444444;
+}
+
+.bg-purple
+{
+  background:#AA66CC;
+}
+
+.bg-blue
+{
+  background:#33B5E5;
+}
+
+.bg-yellow
+{
+  background:#ffbb33;
+}
+.bg-green
+{
+  background:#99CC00;
+}
+
